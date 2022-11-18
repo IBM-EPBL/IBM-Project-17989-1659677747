@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+</head>
+
+<style>
+    body{
+     background-image: url('static/image/predict.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+
+    #circle{
+        background: lightblue;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        top:25%;
+        left:25%;
+        transform:translate(-50%,-50%);
+    }
+
+
+    #ans{
+     text-align: center;
+     font-size: 35px;
+     margin: 0 auto;
+     padding: 3% 5%;
+     padding-top: 40%;
+     color: rgb(57, 1, 7);
+    }
+
+</style>
+<body>
+    <div id="circle">
+        <h1 id="ans">Result : {{num}}</h1>
+    </div>
+</body>
+</html>

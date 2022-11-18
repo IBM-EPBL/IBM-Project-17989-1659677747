@@ -1,0 +1,143 @@
+#clear_button{
+    margin-left: 15px;
+    font-weight: bold;
+    color: rgb(22, 24, 6);;
+  }
+  
+  #confidence{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 7.5%;
+  }
+  
+  #content{
+    margin: 0 auto;
+    padding: 2% 15%;
+    padding-bottom: 0;
+  }
+  
+  .welcome{
+     text-align: center;
+     text-shadow: 0 0 3px #340808;
+     position: relative;
+     color: honeydew;
+     background-image: linear-gradient(rgb(252, 195, 61), rgb(221, 220, 246));
+     padding-top: 1%;
+     padding-bottom: 1%;
+     font-weight: bold;
+     font-family: 'Prompt', sans-serif;
+  }
+  
+  #team_id{
+     text-align: right;
+     font-size: 25px;
+     padding-right: 3%;
+  }
+  
+  #predict_button{
+    margin-right: 15px;
+    color: rgb(21, 23, 8);
+    font-weight: bold;
+  }
+  
+  #prediction_heading{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 7.5%;
+  }
+  
+  #result{
+    font-size: 5rem;
+  }
+  
+  #title{
+    padding: 1.5% 15%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .btn {
+      font-size: 15px;
+      padding: 10px;
+      -webkit-appearance: none;
+      background: rgb(255, 216, 62);
+      border: 1px solid rgb(24, 6, 6);
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .buttons_div{
+    margin-bottom: 30px;
+    margin-right: 80px;
+  }
+  
+  .heading{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: inline;
+  }
+  
+  .center{
+    width: 600px;
+    box-shadow: 0 4px 8px 0 hwb(0 15% 34%), 0 6px 20px 0 rgba(217, 9, 9, 0.19);
+    text-align: center;
+    text-align: center;
+    background-color: rgb(255, 247, 247);
+    margin: 0 auto;
+    margin-top: 3%;
+    /* padding-left: 10%; */
+  }
+  
+  #frame{
+    margin-right: 10%;
+  }
+  
+  .predicted_answer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 3% 5%;
+    padding-top: 0;
+    /* padding-left: 10%; */
+  }
+  
+  p{
+    font-family: 'Source Code Pro', monospace,sans-serif;
+    margin-top: 1%;
+  }
+  
+
+
+  #main{ 
+    width:100%; 
+    height:100vh; 
+  } 
+  .left-column{ 
+    float:left; 
+    width: 50% 
+  } 
+  .right-column{ 
+    float:right; 
+    width: 50% 
+  } 
+
+
+  .myBox { 
+    background: url(static/image/number.jpeg');
+    /*background-image: linear-gradient(rgb(215, 242, 251), rgb(113, 144, 129));*/
+    height: 700px; /* You must set a specified height */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+
+  label{
+    font-size: 1.5em;
+    color: rgb(230, 24, 44);
+    
+  }
+
+
+  @media (min-width: 720px) {
+    .leftside{
+      padding-left: 10%;
+    }
+  }
+  
