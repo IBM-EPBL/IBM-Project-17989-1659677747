@@ -1,0 +1,21 @@
+IBM-Project-17989-1659677747  
+A Novel Method for Handwritten Digit Recognition System
+
+TECHNOLOGY:
+Artificial Intelligence
+
+PROJECT DESCRIPTION: 
+Handwritten digit recognition is the process to provide the ability to machines to recognize human handwritten digits. 
+It is not an easy task for the machine because handwritten digits are not perfect, vary from person-to-person, and can be made with many different flavors.
+
+THE MNIST DATASET:
+Among thousands of datasets available in the market, MNIST is the most popular dataset for enthusiasts of machine learning and deep learning. 
+Above 60,000 plus training images of handwritten digits from 0 to 9 and more than 10,000 images for testing are present in the MNIST dataset. 
+So, 10 different classes are in the MNIST dataset. The images of handwritten digits are shown as a matrix of 28×28 where every cell consists of a grayscale pixel value.
+We have created and deployed a successful deep learning project of digit recognition.When we give a handwritten digit as input image then it will predict the digit and shows the results.
+
+INSTALLATION TOOL:
+Python, IBM Cloud, IBM Watson Studio,Python-Flask
+
+
+
